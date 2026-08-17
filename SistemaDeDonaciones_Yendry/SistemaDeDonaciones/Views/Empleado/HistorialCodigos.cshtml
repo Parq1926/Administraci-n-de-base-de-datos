@@ -1,0 +1,63 @@
+﻿@{
+}
+
+<div class="panel">
+    <div class="panel-header">
+        <h2>Historial de códigos de donación</h2>
+    </div>
+
+    <div class="filter-bar row g-2">
+        <div class="col-md-4">
+            <select class="form-select" disabled>
+                <option>Todos los códigos</option>
+                <option>Alimentación</option>
+                <option>Educación</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <select class="form-select" disabled>
+                <option>Todas las acciones</option>
+                <option>INSERT</option>
+                <option>UPDATE</option>
+                <option>DELETE</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-ledger mb-0">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Acción</th>
+                    <th>Usuario</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mono">Alimentación</td>
+                    <td><span class="badge-estado badge-pendiente">UPDATE</span></td>
+                    <td>María Gómez</td>
+                    <td class="text-soft">Se actualizó la descripción del código.</td>
+                    <td class="text-soft">24/07/2026, 10:02 AM</td>
+                </tr>
+                <tr>
+                    <td class="mono">Emergencias</td>
+                    <td><span class="badge-estado badge-cancelada">DELETE</span></td>
+                    <td>María Gómez</td>
+                    <td class="text-soft">Código desactivado (eliminación lógica).</td>
+                    <td class="text-soft">20/07/2026, 03:41 PM</td>
+                </tr>
+                <tr>
+                    <td class="mono">Educación</td>
+                    <td><span class="badge-estado badge-activo">INSERT</span></td>
+                    <td>Diego Salas</td>
+                    <td class="text-soft">Código creado para Fundación Letra Viva.</td>
+                    <td class="text-soft">15/07/2026, 08:55 AM</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

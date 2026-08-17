@@ -1,0 +1,120 @@
+@model EmpleadoIndexViewModel
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<section class="section-tight pt-0">
+    <div class="row g-3">
+        <div class="col-sm-6">
+            <div class="stat-card">
+                <span class="stat-icon"><i class="bi bi-folder2-open"></i></span>
+                <div class="stat-body">
+                    <div class="stat-label">Proyectos activos</div>
+                    <div class="stat-value">@Model.ProyectosActivos</div>
+                    <a class="stat-link" asp-controller="Empleado" asp-action="Proyectos">Ver todos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="stat-card">
+                <span class="stat-icon"><i class="bi bi-people-fill"></i></span>
+                <div class="stat-body">
+                    <div class="stat-label">Donantes registrados</div>
+                    <div class="stat-value">@Model.DonantesRegistrados</div>
+                    <a class="stat-link" asp-controller="Empleado" asp-action="Donantes">Ver todos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-faint mt-3" style="font-size:0.82rem;">
+                              🎔
+    </p>
+</section>
+
+<section class="section-tight pt-0">
+    <div class="row g-3 align-items-stretch">
+        <div class="col-lg-7">
+            <div class="panel h-100">
+                <div class="panel-header">
+                    <h2>Donaciones recientes</h2>
+                    <a asp-controller="Empleado" asp-action="Donaciones">Ver todas</a>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-panel mb-0">
+                        <thead>
+                            <tr>
+                                <th>Donante</th>
+                                <th>Proyecto</th>
+                                <th class="text-end">Monto</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.DonacionesRecientes.Count == 0)
+                            {
+                                <tr><td colspan="4" class="text-center text-soft py-4">Aún no hay donaciones registradas.</td></tr>
+                            }
+                            @foreach (var d in Model.DonacionesRecientes)
+                            {
+                                <tr>
+                                    <td>@d.DonanteNombreCompleto</td>
+                                    <td>@(d.ProyectoNombre ?? "—")</td>
+                                    <td class="text-end mono">₡@d.Monto.ToString("N0")</td>
+                                    <td>
+                                        @{
+                                            var badgeClass = d.Estado switch
+                                            {
+                                                "Completada" => "badge-completada",
+                                                "Cancelada" => "badge-cancelada",
+                                                _ => "badge-pendiente"
+                                            };
+                                        }
+                                        <span class="badge-estado @badgeClass">@d.Estado</span>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="panel h-100">
+                <div class="panel-header">
+                    <h2>Proyectos destacados</h2>
+                    <a asp-controller="Empleado" asp-action="Proyectos">Ver todos</a>
+                </div>
+
+                @if (Model.ProyectosDestacados.Count == 0)
+                {
+                    <div class="empty-state">
+                        <i class="bi bi-folder2-open"></i>
+                        No hay proyectos para mostrar en este momento.
+                    </div>
+                }
+                else
+                {
+                    @foreach (var p in Model.ProyectosDestacados)
+                    {
+                        <div class="project-row">
+                            <div class="project-row__head">
+                                <span class="project-row__name">@p.Nombre</span>
+                                <span class="project-row__pct">@p.PorcentajeAvance%</span>
+                            </div>
+                            <div class="progress"><div class="progress-bar" style="width:@(p.PorcentajeAvance)%;"></div></div>
+                            <div class="project-row__meta">
+                                ₡@p.Recaudado.ToString("N0") / ₡@((p.MetaRecaudacion ?? 0).ToString("N0"))
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</section>

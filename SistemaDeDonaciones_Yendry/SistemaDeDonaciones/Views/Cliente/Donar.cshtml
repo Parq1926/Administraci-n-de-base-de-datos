@@ -1,0 +1,91 @@
+﻿@{
+}
+
+<div class="row g-3">
+    <div class="col-lg-7">
+        <div class="form-card">
+            <h2 style="font-size:1.1rem;" class="mb-3">Detalles de la donación</h2>
+            <div class="row g-3">
+                <div class="col-12">
+                    <label class="form-label">Proyecto</label>
+                    <select class="form-select">
+                        <option>Comedores Infantiles — Fundación Manos Unidas</option>
+                        <option>Bibliotecas Comunitarias — Fundación Letra Viva</option>
+                        <option>Apoyo Animal — Fundación Letra Viva</option>
+                        <option>Fondos Universitarios — Fundación Futuro Joven</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Código de donación</label>
+                    <select class="form-select">
+                        <option>— Sin especificar —</option>
+                        <option>Alimentación</option>
+                        <option>Educación</option>
+                    </select>
+                    <div class="form-text">Opcional: etiqueta cómo quieres que se use tu aporte.</div>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Monto (₡)</label>
+                    <input type="number" class="form-control" placeholder="0.00" value="50000" />
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Método de pago</label>
+                    <div class="row g-2 mt-1">
+                        <div class="col-4">
+                            <label class="card-surface p-3 d-block text-center" style="cursor:pointer; border-color:var(--primary);">
+                                <i class="bi bi-credit-card-fill" style="font-size:1.3rem; color:var(--primary);"></i>
+                                <div style="font-size:0.85rem; font-weight:600; margin-top:0.35rem;">Tarjeta</div>
+                            </label>
+                        </div>
+                        <div class="col-4">
+                            <label class="card-surface p-3 d-block text-center" style="cursor:pointer;">
+                                <i class="bi bi-bank2" style="font-size:1.3rem; color:var(--ink-soft);"></i>
+                                <div style="font-size:0.85rem; font-weight:600; margin-top:0.35rem;">Transferencia</div>
+                            </label>
+                        </div>
+                        <div class="col-4">
+                            <label class="card-surface p-3 d-block text-center" style="cursor:pointer;">
+                                <i class="bi bi-paypal" style="font-size:1.3rem; color:var(--ink-soft);"></i>
+                                <div style="font-size:0.85rem; font-weight:600; margin-top:0.35rem;">PayPal</div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Comentario (opcional)</label>
+                    <textarea class="form-control" rows="2" placeholder="Un mensaje para la fundación..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-5">
+        <div class="panel">
+            <div class="panel-header"><h2>Resumen</h2></div>
+            <div class="d-flex justify-content-between text-soft" style="font-size:0.9rem;">
+                <span>Monto de la donación</span>
+                <span class="mono">₡50,000.00</span>
+            </div>
+            <div class="d-flex justify-content-between text-soft mt-2" style="font-size:0.9rem;">
+                <span>Comisión de procesamiento</span>
+                <span class="mono">₡0.00</span>
+            </div>
+            <hr style="border-color: var(--border);" />
+            <div class="d-flex justify-content-between" style="font-weight:700; font-size:1.05rem;">
+                <span>Total a donar</span>
+                <span class="mono">₡50,000.00</span>
+            </div>
+
+            <div class="card-surface p-3 mt-3" style="background: var(--bg);">
+                <div class="text-faint" style="font-size:0.72rem; text-transform:uppercase; letter-spacing:.05em;">Su aporte se destinará a</div>
+                <div class="mt-1" style="font-weight:600;">Comedores Infantiles</div>
+                <div class="text-soft" style="font-size:0.85rem;">Fundación Manos Unidas</div>
+            </div>
+
+            <button class="btn btn-primary w-100 mt-3" type="button" disabled>
+                <i class="bi bi-heart-fill"></i> Confirmar donación
+            </button>
+           
+        </div>
+    </div>
+</div>

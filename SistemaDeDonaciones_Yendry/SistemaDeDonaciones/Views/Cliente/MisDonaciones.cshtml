@@ -1,0 +1,70 @@
+﻿@{
+}
+
+<div class="panel">
+    <div class="panel-header">
+        <h2>Historial de donaciones</h2>
+    </div>
+
+    <div class="filter-bar row g-2">
+        <div class="col-md-4">
+            <select class="form-select" disabled>
+                <option>Todos los estados</option>
+                <option>Pendiente</option>
+                <option>Completada</option>
+                <option>Cancelada</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <input type="date" class="form-control" disabled placeholder="Desde" />
+        </div>
+        <div class="col-md-4">
+            <input type="date" class="form-control" disabled placeholder="Hasta" />
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-ledger mb-0">
+            <thead>
+                <tr>
+                    <th>Comprobante</th>
+                    <th>Fecha</th>
+                    <th>Proyecto</th>
+                    <th>Código</th>
+                    <th class="text-end">Monto</th>
+                    <th>Método</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mono text-soft">DB-000478</td>
+                    <td class="text-soft">25/07/2026</td>
+                    <td>Comedores Infantiles</td>
+                    <td class="mono text-soft">Alimentación</td>
+                    <td class="text-end mono">₡8,000</td>
+                    <td class="text-soft">PayPal</td>
+                    <td><span class="badge-estado badge-cancelada">Cancelada</span></td>
+                </tr>
+                <tr>
+                    <td class="mono text-soft">DB-000415</td>
+                    <td class="text-soft">10/06/2026</td>
+                    <td>Bibliotecas Comunitarias</td>
+                    <td class="mono text-soft">—</td>
+                    <td class="text-end mono">₡15,000</td>
+                    <td class="text-soft">Transferencia</td>
+                    <td><span class="badge-estado badge-completada">Completada</span></td>
+                </tr>
+                <tr>
+                    <td class="mono text-soft">DB-000298</td>
+                    <td class="text-soft">02/03/2026</td>
+                    <td>Comedores Infantiles</td>
+                    <td class="mono text-soft">Alimentación</td>
+                    <td class="text-end mono">₡50,000</td>
+                    <td class="text-soft">Tarjeta</td>
+                    <td><span class="badge-estado badge-completada">Completada</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

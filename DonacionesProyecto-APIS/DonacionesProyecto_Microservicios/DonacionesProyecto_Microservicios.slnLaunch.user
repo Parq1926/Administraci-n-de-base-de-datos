@@ -1,0 +1,43 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Servicio.Donaciones\\Servicio.Donaciones.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Servicio.Fundaciones\\Servicio.Fundaciones.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Servicio.Donantes\\Servicio.Donantes.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Servicio.Proyectos\\Servicio.Proyectos.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Servicio.Usuarios\\Servicio.Usuarios.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Movimientos\\Servicio.Movimientos.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Servicio.Alertas\\Servicio.Alertas.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

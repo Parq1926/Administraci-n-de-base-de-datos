@@ -1,0 +1,71 @@
+﻿@{
+}
+
+<section class="section-tight pt-0">
+    <div class="row g-3">
+        <div class="col-sm-6 col-lg-4">
+            <div class="stat-card">
+                <span class="stat-icon"><i class="bi bi-heart-fill"></i></span>
+                <div class="stat-body">
+                    <div class="stat-label">Mis donaciones totales</div>
+                    <div class="stat-value">₡73,000</div>
+                    <div class="stat-trend"><i class="bi bi-arrow-up-short"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="stat-card">
+                <span class="stat-icon"><i class="bi bi-receipt"></i></span>
+                <div class="stat-body">
+                    <div class="stat-label">Última donación</div>
+                    <div class="stat-value">₡8,000</div>
+                    <div class="text-faint" style="font-size:0.78rem;">25/07/2026</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-tight pt-0">
+     <div class="row g-3 align-items-stretch">
+        <div class="col-lg-7">
+            <div class="panel h-100">
+                <div class="panel-header">
+                    <h2>Mis donaciones recientes</h2>
+                    <a asp-controller="Cliente" asp-action="MisDonaciones">Ver todas</a>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-panel mb-0">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Proyecto</th>
+                                <th class="text-end">Monto</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-soft">25/07/2026</td>
+                                <td>Comedores Infantiles</td>
+                                <td class="text-end mono">₡8,000</td>
+                                <td><span class="badge-estado badge-cancelada">Cancelada</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-soft">10/06/2026</td>
+                                <td>Bibliotecas Comunitarias</td>
+                                <td class="text-end mono">₡15,000</td>
+                                <td><span class="badge-estado badge-completada">Completada</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-soft">02/03/2026</td>
+                                <td>Comedores Infantiles</td>
+                                <td class="text-end mono">₡50,000</td>
+                                <td><span class="badge-estado badge-completada">Completada</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+</section>

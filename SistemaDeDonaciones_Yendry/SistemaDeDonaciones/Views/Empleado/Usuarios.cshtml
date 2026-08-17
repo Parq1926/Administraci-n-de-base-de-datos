@@ -1,0 +1,127 @@
+﻿@{
+}
+
+<div class="panel">
+    <div class="panel-header">
+        <h2>Listado de usuarios</h2>
+        <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalUsuario">
+            <i class="bi bi-plus-lg"></i> Agregar usuario
+        </button>
+    </div>
+
+    <div class="filter-bar row g-2">
+        <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Buscar por nombre o email..." disabled />
+        </div>
+        <div class="col-md-3">
+            <select class="form-select" disabled>
+                <option>Todos los tipos</option>
+                <option>Administrador</option>
+                <option>Empleado</option>
+                <option>Cliente</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select class="form-select" disabled>
+                <option>Todos los estados</option>
+                <option>Activo</option>
+                <option>Inactivo</option>
+            </select>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-ledger mb-0">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Tipo</th>
+                    <th>Estado</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>María Gómez</td>
+                    <td class="text-soft">maria.gomez@donacionesdb.com</td>
+                    <td><span class="badge-estado badge-completada">Administrador</span></td>
+                    <td><span class="badge-estado badge-activo">Activo</span></td>
+                    <td>
+                        <div class="row-actions">
+                            <button class="icon-btn" type="button" data-bs-toggle="modal" data-bs-target="#modalUsuario" title="Editar"><i class="bi bi-pencil"></i></button>
+                            <button class="icon-btn danger" type="button" title="Desactivar" disabled><i class="bi bi-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Diego Salas</td>
+                    <td class="text-soft">diego.salas@donacionesdb.com</td>
+                    <td><span class="badge-estado badge-pendiente">Empleado</span></td>
+                    <td><span class="badge-estado badge-activo">Activo</span></td>
+                    <td>
+                        <div class="row-actions">
+                            <button class="icon-btn" type="button" data-bs-toggle="modal" data-bs-target="#modalUsuario" title="Editar"><i class="bi bi-pencil"></i></button>
+                            <button class="icon-btn danger" type="button" title="Desactivar"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Carlos Ramírez</td>
+                    <td class="text-soft">carlos.ramirez@correo.com</td>
+                    <td><span class="badge-estado badge-cancelada">Cliente</span></td>
+                    <td><span class="badge-estado badge-activo">Activo</span></td>
+                    <td>
+                        <div class="row-actions">
+                            <button class="icon-btn" type="button" data-bs-toggle="modal" data-bs-target="#modalUsuario" title="Editar"><i class="bi bi-pencil"></i></button>
+                            <button class="icon-btn danger" type="button" title="Desactivar"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--Modal Agregar o Editar Usuario-->
+<div class="modal fade" id="modalUsuario" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Nuevo usuario</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Contraseña temporal</label>
+                        <input type="password" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Tipo de usuario</label>
+                        <select class="form-select">
+                            <option>Cliente</option>
+                            <option>Empleado</option>
+                            <option>Administrador</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" disabled>Guardar usuario</button>
+            </div>
+        </div>
+    </div>
+</div>

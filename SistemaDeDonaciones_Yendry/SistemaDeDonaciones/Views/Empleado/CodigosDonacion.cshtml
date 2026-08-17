@@ -1,0 +1,246 @@
+﻿@model List<CodigoDonacion>
+@{
+    var fundaciones = ViewData["Fundaciones"] as List<Fundacion> ?? new();
+    var buscar = ViewData["Buscar"] as string;
+    var idFundacionFiltro = ViewData["IdFundacionFiltro"] as int?;
+    var estadoFiltro = ViewData["EstadoFiltro"] as bool?;
+}
+
+@if (TempData["Exito"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Exito"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="panel">
+    <div class="panel-header">
+        <h2>Listado de códigos de donación</h2>
+        <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalCodigoNuevo">
+            <i class="bi bi-plus-lg"></i> Agregar código
+        </button>
+    </div>
+
+    <!-- Filtros -->
+    <form method="get" asp-action="CodigosDonacion" class="filter-bar row g-2">
+        <div class="col-md-5">
+            <input type="text" name="buscar" value="@buscar" class="form-control" placeholder="Buscar por nombre o descripción..." />
+        </div>
+        <div class="col-md-3">
+            <select name="idFundacion" class="form-select">
+                <option value="">Todas las fundaciones</option>
+                @foreach (var f in fundaciones)
+                {
+                    <option value="@f.IdFundacion" selected="@(idFundacionFiltro == f.IdFundacion)">@f.Nombre</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <select name="estado" class="form-select">
+                <option value="">Todos los estados</option>
+                <option value="true" selected="@(estadoFiltro == true)">Activo</option>
+                <option value="false" selected="@(estadoFiltro == false)">Inactivo</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-outline-secondary w-100"><i class="bi bi-filter"></i> Filtrar</button>
+        </div>
+    </form>
+
+    <!-- Tabla -->
+    <div class="table-responsive">
+        <table class="table table-ledger mb-0">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Fundación</th>
+                    <th>Descripción</th>
+                    <th>Redistribuible</th>
+                    <th>Estado</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr><td colspan="6" class="text-center text-soft py-4">No hay códigos de donación registrados.</td></tr>
+                }
+                @foreach (var c in Model)
+                {
+                    <tr>
+                        <td class="mono" style="font-weight:600;">@c.NombreCodigo</td>
+                        <td class="text-soft">@c.FundacionNombre</td>
+                        <td class="text-soft">@c.Descripcion</td>
+                        <td>
+                            @if (c.PermiteRedistribucion == true)
+                            {
+                                <i class="bi bi-check-circle-fill" style="color:var(--success);"></i>
+                            }
+                            else
+                            {
+                                <i class="bi bi-x-circle" style="color:var(--ink-faint);"></i>
+                            }
+                        </td>
+                        <td>
+                            @if (c.Estado == true)
+                            {
+                                <span class="badge-estado badge-activo">Activo</span>
+                            }
+                            else
+                            {
+                                <span class="badge-estado badge-inactivo">Inactivo</span>
+                            }
+                        </td>
+                        <td>
+                            <div class="row-actions">
+                                <button class="icon-btn" type="button" title="Editar"
+                                        data-bs-toggle="modal" data-bs-target="#modalCodigoEditar"
+                                        data-id="@c.IdCodigo"
+                                        data-idfundacion="@c.IdFundacion"
+                                        data-nombre="@c.NombreCodigo"
+                                        data-descripcion="@c.Descripcion"
+                                        data-redistribucion="@(c.PermiteRedistribucion?.ToString().ToLower())"
+                                        data-estado="@(c.Estado?.ToString().ToLower())">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <form method="post" asp-action="EliminarCodigoDonacion" style="display:inline"
+                                      onsubmit="return confirm('¿Eliminar el código @c.NombreCodigo?');">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="idCodigo" value="@c.IdCodigo" />
+                                    <button class="icon-btn danger" type="submit" title="Eliminar"><i class="bi bi-trash"></i></button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal: Nuevo Código -->
+<div class="modal fade" id="modalCodigoNuevo" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <form method="post" asp-action="CrearCodigoDonacion" class="modal-content">
+            @Html.AntiForgeryToken()
+            <div class="modal-header">
+                <h5 class="modal-title">Nuevo código de donación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Nombre del código</label>
+                        <input type="text" name="NombreCodigo" class="form-control" required maxlength="150" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Fundación</label>
+                        <select name="IdFundacion" class="form-select" required>
+                            <option value="">Seleccionar...</option>
+                            @foreach (var f in fundaciones.Where(f => f.Activo == true))
+                            {
+                                <option value="@f.IdFundacion">@f.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Descripción</label>
+                        <textarea name="Descripcion" class="form-control" rows="2" maxlength="250"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-check mt-2">
+                            <input class="form-check-input" type="checkbox" name="PermiteRedistribucion" value="true" checked />
+                            <label class="form-check-label">Permite redistribución de fondos</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Estado</label>
+                        <select name="Estado" class="form-select">
+                            <option value="true">Activo</option>
+                            <option value="false">Inactivo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar código</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal: Editar Código -->
+<div class="modal fade" id="modalCodigoEditar" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <form method="post" asp-action="EditarCodigoDonacion" class="modal-content">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="IdCodigo" id="editIdCodigo" />
+            <div class="modal-header">
+                <h5 class="modal-title">Editar código de donación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Nombre del código</label>
+                        <input type="text" name="NombreCodigo" id="editNombreCodigo" class="form-control" required maxlength="150" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Fundación</label>
+                        <select name="IdFundacion" id="editIdFundacion" class="form-select" required>
+                            <option value="">Seleccionar...</option>
+                            @foreach (var f in fundaciones)
+                            {
+                                <option value="@f.IdFundacion">@f.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Descripción</label>
+                        <textarea name="Descripcion" id="editDescripcion" class="form-control" rows="2" maxlength="250"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-check mt-2">
+                            <input class="form-check-input" type="checkbox" name="PermiteRedistribucion" id="editRedistribucion" value="true" />
+                            <label class="form-check-label">Permite redistribución de fondos</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Estado</label>
+                        <select name="Estado" id="editEstado" class="form-select">
+                            <option value="true">Activo</option>
+                            <option value="false">Inactivo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('modalCodigoEditar').addEventListener('show.bs.modal', function(event) {
+            const btn = event.relatedTarget;
+            document.getElementById('editIdCodigo').value = btn.getAttribute('data-id');
+            document.getElementById('editNombreCodigo').value = btn.getAttribute('data-nombre') || '';
+            document.getElementById('editIdFundacion').value = btn.getAttribute('data-idfundacion') || '';
+            document.getElementById('editDescripcion').value = btn.getAttribute('data-descripcion') || '';
+            document.getElementById('editRedistribucion').checked = btn.getAttribute('data-redistribucion') === 'true';
+            document.getElementById('editEstado').value = btn.getAttribute('data-estado') === 'true' ? 'true' : 'false';
+        });
+    </script>
+}

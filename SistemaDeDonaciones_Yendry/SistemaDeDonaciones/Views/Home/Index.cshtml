@@ -1,0 +1,124 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="page-topbar">
+    <div>
+        <h1>¡Bienvenido!</h1>
+        <p>Conectamos donantes con fundaciones y proyectos que necesitan apoyo</p>
+    </div>
+    <a class="btn btn-primary" asp-controller="Cuenta" asp-action="Login">
+        <i class="bi bi-box-arrow-in-right"></i> Iniciar sesión
+    </a>
+</div>
+
+<section class="section-tight pt-0">
+    <div class="hero">
+        <span class="eyebrow">Sobre nuestra plataforma</span>
+        <h1 class="mt-2">Tu donación en buenas manos</h1>
+        <p class="lede mt-2">
+            Conectamos a personas y empresas que quieren ayudar con fundaciones
+            que realizan proyectos sociales. Puedes saber a qué proyecto va tu dinero
+            y ver cómo avanza, para que tengas claro cómo se utiliza tu aporte.
+        </p>
+    </div>
+
+    <div class="row g-3 mt-1">
+        <div class="col-md-4">
+            <div class="stat-card h-100">
+                <span class="stat-icon"><i class="bi bi-bank"></i></span>
+                <div class="stat-body">
+                    <div class="stat-label" style="font-size:0.95rem; font-weight:700; color:var(--ink);">Fundaciones aliadas</div>
+                    <p class="text-soft mt-1 mb-0" style="font-size:0.85rem;">
+                        Trabajamos con fundaciones verificadas que realizan proyectos sociales reales.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stat-card h-100">
+                <span class="stat-icon"><i class="bi bi-folder2-open"></i></span>
+                <div class="stat-body">
+                    <div class="stat-label" style="font-size:0.95rem; font-weight:700; color:var(--ink);">Proyectos con meta clara</div>
+                    <p class="text-soft mt-1 mb-0" style="font-size:0.85rem;">
+                        Cada proyecto muestra su meta de recaudación y cuánto se ha alcanzado.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stat-card h-100">
+                <span class="stat-icon"><i class="bi bi-receipt-cutoff"></i></span>
+                <div class="stat-body">
+                    <div class="stat-label" style="font-size:0.95rem; font-weight:700; color:var(--ink);">Historial de su aporte</div>
+                    <p class="text-soft mt-1 mb-0" style="font-size:0.85rem;">
+                        Como donante, puedes consultar cada donación que has realizado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-tight">
+    <span class="eyebrow">🎔</span>
+    <div class="row g-3 mt-1">
+        <div class="col-sm-6 col-lg-3">
+            <a class="quick-action" asp-controller="Cuenta" asp-action="Registro">
+                <span class="quick-action__icon"><i class="bi bi-heart"></i></span>
+                <span>
+                    <span class="quick-action__title d-block">Nueva donación</span>
+                    <span class="quick-action__desc">Realiza una donación</span>
+                </span>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+            <a class="quick-action" asp-controller="Cuenta" asp-action="Registro">
+                <span class="quick-action__icon"><i class="bi bi-person-plus"></i></span>
+                <span>
+                    <span class="quick-action__title d-block">Crear cuenta</span>
+                    <span class="quick-action__desc">Registrate como donante</span>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="section-tight">
+    <span class="eyebrow">Cómo funciona tu donación</span>
+    <h2 class="mt-2 mb-3" style="font-size:1.4rem;">Directo a la fundación</h2>
+
+    <div class="trace">
+        <div class="trace__node">
+            <div class="trace__eyebrow">Donante</div>
+            <div class="trace__title">Realizas tu donación</div>
+            <div class="trace__meta">Monto + método de pago</div>
+        </div>
+        <div class="trace__connector">&rarr;</div>
+        <div class="trace__node">
+            <div class="trace__eyebrow">Código</div>
+            <div class="trace__title">Se etiqueta</div>
+            <div class="trace__meta">Ej. Salud, Alimentación</div>
+        </div>
+        <div class="trace__connector">&rarr;</div>
+        <div class="trace__node">
+            <div class="trace__eyebrow">Proyecto</div>
+            <div class="trace__title">Se asigna</div>
+            <div class="trace__meta">Meta y avance</div>
+        </div>
+        <div class="trace__connector">&rarr;</div>
+        <div class="trace__node">
+            <div class="trace__eyebrow">Fundación</div>
+            <div class="trace__title">Reciben los fondos</div>
+            <div class="trace__meta">Con historial</div>
+        </div>
+    </div>
+</section>
+
+<section class="section-tight">
+    <div class="card-surface p-4 p-md-5 text-center" style="background: var(--primary-darker); border: none;">
+        <h2 class="text-white" style="font-size:1.5rem;">¿Listo para donar con la certeza de a dónde va tu aporte?</h2>
+        <p class="text-white-50 mt-2 mb-0">Crear una cuenta ahora mismo.</p>
+        <a class="btn btn-primary btn-lg mt-3" style="background:#fff; color:var(--primary-darker); border-color:#fff;" asp-controller="Cuenta" asp-action="Registro">Crear mi cuenta</a>
+    </div>
+</section>

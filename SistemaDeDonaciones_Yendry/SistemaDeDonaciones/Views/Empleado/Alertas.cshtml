@@ -1,0 +1,256 @@
+﻿@model List<Alerta>
+@{
+    var buscar = ViewData["Buscar"] as string;
+    var leidaFiltro = ViewData["LeidaFiltro"] as bool?;
+    var tipoAlertaFiltro = ViewData["TipoAlertaFiltro"] as string;
+}
+
+@if (TempData["Exito"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Exito"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="panel">
+    <div class="panel-header">
+        <h2>Listado de alertas</h2>
+        <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalAlertaNueva">
+            <i class="bi bi-plus-lg"></i> Nueva alerta
+        </button>
+    </div>
+
+    <!-- Filtros -->
+    <form method="get" asp-action="Alertas" class="filter-bar row g-2">
+        <div class="col-md-4">
+            <input type="text" name="buscar" value="@buscar" class="form-control" placeholder="Buscar por título o mensaje..." />
+        </div>
+        <div class="col-md-3">
+            <select name="leida" class="form-select">
+                <option value="">Todos los estados</option>
+                <option value="false" selected="@(leidaFiltro == false)">No leídas</option>
+                <option value="true" selected="@(leidaFiltro == true)">Leídas</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="tipoAlerta" class="form-select">
+                <option value="">Todos los tipos</option>
+                <option value="Info" selected="@(tipoAlertaFiltro == "Info")">Info</option>
+                <option value="Success" selected="@(tipoAlertaFiltro == "Success")">Success</option>
+                <option value="Warning" selected="@(tipoAlertaFiltro == "Warning")">Warning</option>
+                <option value="Error" selected="@(tipoAlertaFiltro == "Error")">Error</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-outline-secondary w-100"><i class="bi bi-filter"></i> Filtrar</button>
+        </div>
+    </form>
+
+    <!-- Tabla -->
+    <div class="table-responsive">
+        <table class="table table-ledger mb-0">
+            <thead>
+                <tr>
+                    <th style="width:36px;"></th>
+                    <th>Título</th>
+                    <th>Mensaje</th>
+                    <th>Tipo</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr><td colspan="7" class="text-center text-soft py-4">No hay alertas registradas.</td></tr>
+                }
+                @foreach (var a in Model.OrderByDescending(a => a.FechaCreacion))
+                {
+                    var badgeTipo = a.TipoAlerta?.ToLower() switch
+                    {
+                        "success" => "badge-completada",
+                        "warning" => "badge-pendiente",
+                        "error" => "badge-cancelada",
+                        _ => "badge-pendiente"
+                    };
+
+                    <tr style="@(a.Leida == true ? "opacity:0.55;" : "")">
+                        <td>
+                            @if (a.Leida != true)
+                            {
+                                <span style="width:8px;height:8px;border-radius:50%;background:var(--primary);display:inline-block;"></span>
+                            }
+                        </td>
+                        <td style="font-weight:600;">@a.Titulo</td>
+                        <td class="text-soft">@a.Mensaje</td>
+                        <td><span class="badge-estado @badgeTipo">@a.TipoAlerta</span></td>
+                        <td class="text-soft">@(a.FechaCreacion?.ToString("dd/MM/yyyy HH:mm") ?? "—")</td>
+                        <td>
+                            @if (a.Leida == true)
+                            {
+                                <span class="badge-estado badge-inactivo">Leída</span>
+                            }
+                            else
+                            {
+                                <span class="badge-estado badge-activo">No leída</span>
+                            }
+                        </td>
+                        <td>
+                            <div class="row-actions">
+                                @if (a.Leida != true)
+                                {
+                                    <form method="post" asp-action="MarcarLeida" style="display:inline">
+                                        @Html.AntiForgeryToken()
+                                        <input type="hidden" name="idAlerta" value="@a.IdAlerta" />
+                                        <button class="icon-btn" type="submit" title="Marcar como leída">
+                                            <i class="bi bi-check2"></i>
+                                        </button>
+                                    </form>
+                                }
+                                <button class="icon-btn" type="button" title="Editar"
+                                        data-bs-toggle="modal" data-bs-target="#modalAlertaEditar"
+                                        data-id="@a.IdAlerta"
+                                        data-titulo="@a.Titulo"
+                                        data-mensaje="@a.Mensaje"
+                                        data-tipo="@a.TipoAlerta"
+                                        data-url="@a.UrlRelacionada"
+                                        data-leida="@(a.Leida?.ToString().ToLower())">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <form method="post" asp-action="EliminarAlerta" style="display:inline"
+                                      onsubmit="return confirm('¿Eliminar esta alerta?');">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="idAlerta" value="@a.IdAlerta" />
+                                    <button class="icon-btn danger" type="submit" title="Eliminar"><i class="bi bi-trash"></i></button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal: Nueva Alerta -->
+<div class="modal fade" id="modalAlertaNueva" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <form method="post" asp-action="CrearAlerta" class="modal-content">
+            @Html.AntiForgeryToken()
+            <div class="modal-header">
+                <h5 class="modal-title">Nueva alerta</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label class="form-label">Título</label>
+                        <input type="text" name="Titulo" class="form-control" required maxlength="100" />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Mensaje</label>
+                        <textarea name="Mensaje" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Tipo de alerta</label>
+                        <select name="TipoAlerta" class="form-select">
+                            <option value="Info">Info</option>
+                            <option value="Success">Success</option>
+                            <option value="Warning">Warning</option>
+                            <option value="Error">Error</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">URL relacionada</label>
+                        <input type="text" name="UrlRelacionada" class="form-control" placeholder="/ruta/ejemplo" />
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="Leida" value="true" />
+                            <label class="form-check-label">Marcar como leída</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar alerta</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal: Editar Alerta -->
+<div class="modal fade" id="modalAlertaEditar" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <form method="post" asp-action="EditarAlerta" class="modal-content">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="IdAlerta" id="editIdAlerta" />
+            <div class="modal-header">
+                <h5 class="modal-title">Editar alerta</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label class="form-label">Título</label>
+                        <input type="text" name="Titulo" id="editTitulo" class="form-control" required maxlength="100" />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Mensaje</label>
+                        <textarea name="Mensaje" id="editMensaje" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Tipo de alerta</label>
+                        <select name="TipoAlerta" id="editTipo" class="form-select">
+                            <option value="Info">Info</option>
+                            <option value="Success">Success</option>
+                            <option value="Warning">Warning</option>
+                            <option value="Error">Error</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">URL relacionada</label>
+                        <input type="text" name="UrlRelacionada" id="editUrl" class="form-control" />
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="Leida" id="editLeida" value="true" />
+                            <label class="form-check-label">Marcar como leída</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Cargar datos en el modal de edición
+        document.getElementById('modalAlertaEditar').addEventListener('show.bs.modal', function(event) {
+            const btn = event.relatedTarget;
+            document.getElementById('editIdAlerta').value = btn.getAttribute('data-id');
+            document.getElementById('editTitulo').value = btn.getAttribute('data-titulo') || '';
+            document.getElementById('editMensaje').value = btn.getAttribute('data-mensaje') || '';
+            document.getElementById('editTipo').value = btn.getAttribute('data-tipo') || 'Info';
+            document.getElementById('editUrl').value = btn.getAttribute('data-url') || '';
+
+            const leida = btn.getAttribute('data-leida') === 'true';
+            document.getElementById('editLeida').checked = leida;
+        });
+    </script>
+}

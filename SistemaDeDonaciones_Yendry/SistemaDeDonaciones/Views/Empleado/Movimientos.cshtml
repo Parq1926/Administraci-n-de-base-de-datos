@@ -1,0 +1,331 @@
+﻿@model List<Movimiento>
+@{
+    var proyectos = ViewData["Proyectos"] as List<Proyecto> ?? new();
+    var tipoFiltro = ViewData["TipoFiltro"] as string;
+    var idProyectoFiltro = ViewData["IdProyectoFiltro"] as int?;
+    var desde = ViewData["Desde"] as string;
+    var hasta = ViewData["Hasta"] as string;
+}
+
+@if (TempData["Exito"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Exito"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="panel">
+    <div class="panel-header">
+        <h2>Libro de movimientos</h2>
+        <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalMovimientoNuevo">
+            <i class="bi bi-plus-lg"></i> Registrar movimiento
+        </button>
+    </div>
+
+    <!-- Filtros -->
+    <form method="get" asp-action="Movimientos" class="filter-bar row g-2">
+        <div class="col-md-3">
+            <select name="tipo" class="form-select">
+                <option value="">Todos los tipos</option>
+                <option value="Donación" selected="@(tipoFiltro == "Donación")">Donación</option>
+                <option value="Redistribución" selected="@(tipoFiltro == "Redistribución")">Redistribución</option>
+                <option value="Gasto" selected="@(tipoFiltro == "Gasto")">Gasto</option>
+                <option value="Ingreso" selected="@(tipoFiltro == "Ingreso")">Ingreso</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="idProyecto" class="form-select">
+                <option value="">Todos los proyectos</option>
+                @foreach (var p in proyectos)
+                {
+                    <option value="@p.IdProyecto" selected="@(idProyectoFiltro == p.IdProyecto)">@p.Nombre</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <input type="date" name="desde" value="@desde" class="form-control" placeholder="Desde" />
+        </div>
+        <div class="col-md-2">
+            <input type="date" name="hasta" value="@hasta" class="form-control" placeholder="Hasta" />
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-outline-secondary w-100"><i class="bi bi-filter"></i> Filtrar</button>
+        </div>
+    </form>
+
+    <!-- Tabla -->
+    <div class="table-responsive">
+        <table class="table table-ledger mb-0">
+            <thead>
+                <tr>
+                    <th>Comprobante</th>
+                    <th>Tipo</th>
+                    <th>Proyecto</th>
+                    <th>Donación</th>
+                    <th class="text-end">Monto</th>
+                    <th class="text-end">Saldo anterior</th>
+                    <th class="text-end">Saldo posterior</th>
+                    <th>Fecha</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr><td colspan="9" class="text-center text-soft py-4">No hay movimientos registrados.</td></tr>
+                }
+                @foreach (var m in Model.OrderByDescending(m => m.FechaMovimiento))
+                {
+                    var badgeTipo = m.TipoMovimiento?.ToLower() switch
+                    {
+                        "donación" => "badge-completada",
+                        "redistribución" => "badge-pendiente",
+                        "gasto" => "badge-cancelada",
+                        _ => "badge-pendiente"
+                    };
+
+                    <tr>
+                        <td class="mono text-soft">@m.Comprobante</td>
+                        <td><span class="badge-estado @badgeTipo">@m.TipoMovimiento</span></td>
+                        <td class="text-soft">@(proyectos.FirstOrDefault(p => p.IdProyecto == m.IdProyecto)?.Nombre ?? "—")</td>
+                        <td class="text-soft">@(m.IdDonacion?.ToString() ?? "—")</td>
+                        <td class="text-end mono">₡@m.Monto.ToString("N0")</td>
+                        <td class="text-end mono text-soft">@(m.SaldoAnterior?.ToString("N0") ?? "—")</td>
+                        <td class="text-end mono text-soft">@(m.SaldoPosterior?.ToString("N0") ?? "—")</td>
+                        <td class="text-soft">@(m.FechaMovimiento?.ToString("dd/MM/yyyy HH:mm") ?? "—")</td>
+                        <td>
+                            <div class="row-actions">
+                                <button class="icon-btn" type="button" title="Editar"
+                                        data-bs-toggle="modal" data-bs-target="#modalMovimientoEditar"
+                                        data-id="@m.IdMovimiento"
+                                        data-tipo="@m.TipoMovimiento"
+                                        data-monto="@m.Monto"
+                                        data-descripcion="@m.Descripcion"
+                                        data-idproyecto="@m.IdProyecto"
+                                        data-iddonacion="@m.IdDonacion"
+                                        data-comprobante="@m.Comprobante"
+                                        data-fecha="@(m.FechaMovimiento?.ToString("yyyy-MM-ddTHH:mm"))"
+                                        data-saldoanterior="@m.SaldoAnterior"
+                                        data-saldoposterior="@m.SaldoPosterior"
+                                        data-idusuario="@m.IdUsuario">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <form method="post" asp-action="EliminarMovimiento" style="display:inline"
+                                      onsubmit="return confirm('¿Eliminar este movimiento?');">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="idMovimiento" value="@m.IdMovimiento" />
+                                    <button class="icon-btn danger" type="submit" title="Eliminar"><i class="bi bi-trash"></i></button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal: Nuevo Movimiento -->
+<div class="modal fade" id="modalMovimientoNuevo" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <form method="post" asp-action="CrearMovimiento" class="modal-content" id="formCrearMovimiento">
+            @Html.AntiForgeryToken()
+            <div class="modal-header">
+                <h5 class="modal-title">Registrar movimiento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Tipo de movimiento</label>
+                        <select name="TipoMovimiento" class="form-select" required>
+                            <option value="">Seleccionar...</option>
+                            <option value="Donación">Donación</option>
+                            <option value="Redistribución">Redistribución</option>
+                            <option value="Gasto">Gasto</option>
+                            <option value="Ingreso">Ingreso</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Monto (₡)</label>
+                        <input type="number" name="Monto" class="form-control" step="0.01" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Proyecto</label>
+                        <select name="IdProyecto" class="form-select">
+                            <option value="">— Sin asignar —</option>
+                            @foreach (var p in proyectos)
+                            {
+                                <option value="@p.IdProyecto">@p.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Donación</label>
+                        <input type="number" name="IdDonacion" class="form-control" placeholder="ID de donación" />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Descripción</label>
+                        <textarea name="Descripcion" class="form-control" rows="2"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Comprobante</label>
+                        <input type="text" name="Comprobante" class="form-control" placeholder="Ej. DON-001" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Fecha del movimiento</label>
+                        <input type="datetime-local" name="FechaMovimiento" id="nuevaFechaMovimiento" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Saldo anterior</label>
+                        <input type="number" name="SaldoAnterior" class="form-control" step="0.01" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Saldo posterior</label>
+                        <input type="number" name="SaldoPosterior" class="form-control" step="0.01" />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Usuario (ID)</label>
+                        <input type="number" name="IdUsuario" class="form-control" placeholder="ID del usuario" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar movimiento</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal: Editar Movimiento -->
+<div class="modal fade" id="modalMovimientoEditar" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <form method="post" asp-action="EditarMovimiento" class="modal-content" id="formEditarMovimiento">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="IdMovimiento" id="editIdMovimiento" />
+            <div class="modal-header">
+                <h5 class="modal-title">Editar movimiento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Tipo de movimiento</label>
+                        <select name="TipoMovimiento" id="editTipoMovimiento" class="form-select" required>
+                            <option value="Donación">Donación</option>
+                            <option value="Redistribución">Redistribución</option>
+                            <option value="Gasto">Gasto</option>
+                            <option value="Ingreso">Ingreso</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Monto (₡)</label>
+                        <input type="number" name="Monto" id="editMonto" class="form-control" step="0.01" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Proyecto</label>
+                        <select name="IdProyecto" id="editIdProyecto" class="form-select">
+                            <option value="">— Sin asignar —</option>
+                            @foreach (var p in proyectos)
+                            {
+                                <option value="@p.IdProyecto">@p.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Donación</label>
+                        <input type="number" name="IdDonacion" id="editIdDonacion" class="form-control" placeholder="ID de donación" />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Descripción</label>
+                        <textarea name="Descripcion" id="editDescripcion" class="form-control" rows="2"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Comprobante</label>
+                        <input type="text" name="Comprobante" id="editComprobante" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Fecha del movimiento</label>
+                        <input type="datetime-local" name="FechaMovimiento" id="editFecha" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Saldo anterior</label>
+                        <input type="number" name="SaldoAnterior" id="editSaldoAnterior" class="form-control" step="0.01" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Saldo posterior</label>
+                        <input type="number" name="SaldoPosterior" id="editSaldoPosterior" class="form-control" step="0.01" />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Usuario (ID)</label>
+                        <input type="number" name="IdUsuario" id="editIdUsuario" class="form-control" placeholder="ID del usuario" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // ============================================
+        // CARGAR DATOS EN EL MODAL DE EDICIÓN
+        // ============================================
+        document.getElementById('modalMovimientoEditar').addEventListener('show.bs.modal', function(event) {
+            const btn = event.relatedTarget;
+            document.getElementById('editIdMovimiento').value = btn.getAttribute('data-id');
+            document.getElementById('editTipoMovimiento').value = btn.getAttribute('data-tipo') || 'Donación';
+            document.getElementById('editMonto').value = btn.getAttribute('data-monto') || '';
+            document.getElementById('editIdProyecto').value = btn.getAttribute('data-idproyecto') || '';
+            document.getElementById('editIdDonacion').value = btn.getAttribute('data-iddonacion') || '';
+            document.getElementById('editDescripcion').value = btn.getAttribute('data-descripcion') || '';
+            document.getElementById('editComprobante').value = btn.getAttribute('data-comprobante') || '';
+
+            const fecha = btn.getAttribute('data-fecha');
+            if (fecha) {
+                document.getElementById('editFecha').value = fecha;
+            }
+
+            document.getElementById('editSaldoAnterior').value = btn.getAttribute('data-saldoanterior') || '';
+            document.getElementById('editSaldoPosterior').value = btn.getAttribute('data-saldoposterior') || '';
+            document.getElementById('editIdUsuario').value = btn.getAttribute('data-idusuario') || '';
+        });
+
+        // ============================================
+        // CONVERTIR FECHA A ISO 8601 ANTES DE ENVIAR
+        // ============================================
+
+        document.getElementById('formCrearMovimiento').addEventListener('submit', function(e) {
+            const fechaInput = document.getElementById('nuevaFechaMovimiento');
+            if (fechaInput && fechaInput.value) {
+                const fecha = new Date(fechaInput.value);
+                if (!isNaN(fecha)) {
+                    fechaInput.value = fecha.toISOString();
+                }
+            }
+        });
+
+        document.getElementById('formEditarMovimiento').addEventListener('submit', function(e) {
+            const fechaInput = document.getElementById('editFecha');
+            if (fechaInput && fechaInput.value) {
+                const fecha = new Date(fechaInput.value);
+                if (!isNaN(fecha)) {
+                    fechaInput.value = fecha.toISOString();
+                }
+            }
+        });
+    </script>
+}

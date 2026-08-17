@@ -1,0 +1,1126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\graphql\\mutations\\alertamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\graphql\\mutations\\alertamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\models\\alertaupdateinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\models\\alertaupdateinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\servicio.alertas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\servicio.alertas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\models\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\models\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\data\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\data\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\data\\repositories\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\data\\repositories\\alertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\data\\repositories\\ialertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\data\\repositories\\ialertarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\graphql\\mutations\\codigodonacionmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\graphql\\mutations\\codigodonacionmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\graphql\\queries\\codigodonacionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\graphql\\queries\\codigodonacionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\services\\codigodonacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\services\\codigodonacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BF08EE-0B38-4017-9D58-4FB3AA460572}|Servicio.Proyectos\\Servicio.Proyectos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.proyectos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15BF08EE-0B38-4017-9D58-4FB3AA460572}|Servicio.Proyectos\\Servicio.Proyectos.csproj|solutionrelative:servicio.proyectos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.historialcodigos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|solutionrelative:servicio.historialcodigos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B16ACF-70AC-42FC-863C-579F613ED08C}|Servicio.Fundaciones\\Servicio.Fundaciones.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.fundaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69B16ACF-70AC-42FC-863C-579F613ED08C}|Servicio.Fundaciones\\Servicio.Fundaciones.csproj|solutionrelative:servicio.fundaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87807E4-901A-40A2-869E-FD88FEA2F7F4}|Servicio.Donantes\\Servicio.Donantes.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.donantes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D87807E4-901A-40A2-869E-FD88FEA2F7F4}|Servicio.Donantes\\Servicio.Donantes.csproj|solutionrelative:servicio.donantes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C57F0A-60F3-4E82-A63F-001EB7EE5511}|Servicio.Donaciones\\Servicio.Donaciones.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.donaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8C57F0A-60F3-4E82-A63F-001EB7EE5511}|Servicio.Donaciones\\Servicio.Donaciones.csproj|solutionrelative:servicio.donaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\graphql\\queries\\alertaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\graphql\\queries\\alertaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\graphql\\inputs\\alertainput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\graphql\\inputs\\alertainput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\exceptions\\alertaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\exceptions\\alertaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.alertas\\graphql\\types\\alertatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4401FB-7F63-49AA-A136-F2E56A643CCA}|Servicio.Alertas\\Servicio.Alertas.csproj|solutionrelative:servicio.alertas\\graphql\\types\\alertatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\servicio.movimientos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\servicio.movimientos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\data\\repositories\\movimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\data\\repositories\\movimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\data\\repositories\\imovimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\data\\repositories\\imovimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\graphql\\mutations\\movimientomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\graphql\\mutations\\movimientomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\graphql\\queries\\movimientoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\graphql\\queries\\movimientoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\graphql\\inputs\\movimientoinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\graphql\\inputs\\movimientoinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\data\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\data\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\models\\mensajeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\models\\mensajeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\exceptions\\movimientoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\exceptions\\movimientoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BF08EE-0B38-4017-9D58-4FB3AA460572}|Servicio.Proyectos\\Servicio.Proyectos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.proyectos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BF08EE-0B38-4017-9D58-4FB3AA460572}|Servicio.Proyectos\\Servicio.Proyectos.csproj|solutionrelative:servicio.proyectos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\graphql\\types\\mensajeresponsetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\graphql\\types\\mensajeresponsetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\movimientos\\graphql\\types\\movimientotypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF2652F-5034-4188-AEE1-210F49499188}|Movimientos\\Servicio.Movimientos.csproj|solutionrelative:movimientos\\graphql\\types\\movimientotypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\graphql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\graphql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\models\\inputs\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\models\\inputs\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\models\\inputs\\redistribuirfondosinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\models\\inputs\\redistribuirfondosinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\graphql\\mutations\\usuariomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\graphql\\mutations\\usuariomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\graphql\\queries\\usuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\graphql\\queries\\usuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.historialcodigos\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|solutionrelative:servicio.historialcodigos\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\servicio.usuarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\servicio.usuarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B16ACF-70AC-42FC-863C-579F613ED08C}|Servicio.Fundaciones\\Servicio.Fundaciones.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.fundaciones\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B16ACF-70AC-42FC-863C-579F613ED08C}|Servicio.Fundaciones\\Servicio.Fundaciones.csproj|solutionrelative:servicio.fundaciones\\services\\rolcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.historialcodigos\\services\\historialcodigoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|solutionrelative:servicio.historialcodigos\\services\\historialcodigoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87807E4-901A-40A2-869E-FD88FEA2F7F4}|Servicio.Donantes\\Servicio.Donantes.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.donantes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87807E4-901A-40A2-869E-FD88FEA2F7F4}|Servicio.Donantes\\Servicio.Donantes.csproj|solutionrelative:servicio.donantes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Microsoft\\VisualStudio\\WebTools.Aspire\\Microsoft.WebTools.Aspire.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C57F0A-60F3-4E82-A63F-001EB7EE5511}|Servicio.Donaciones\\Servicio.Donaciones.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.donaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C57F0A-60F3-4E82-A63F-001EB7EE5511}|Servicio.Donaciones\\Servicio.Donaciones.csproj|solutionrelative:servicio.donaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B16ACF-70AC-42FC-863C-579F613ED08C}|Servicio.Fundaciones\\Servicio.Fundaciones.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.fundaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B16ACF-70AC-42FC-863C-579F613ED08C}|Servicio.Fundaciones\\Servicio.Fundaciones.csproj|solutionrelative:servicio.fundaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.historialcodigos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|solutionrelative:servicio.historialcodigos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.usuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CA57B9-B020-45AA-89C6-2FFABDCF282A}|Servicio.Usuarios\\Servicio.Usuarios.csproj|solutionrelative:servicio.usuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.historialcodigos\\models\\inputs\\historialcodigoinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|solutionrelative:servicio.historialcodigos\\models\\inputs\\historialcodigoinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.historialcodigos\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575CFC3D-8F69-48CC-90FC-847A41115323}|Servicio.HistorialCodigos\\Servicio.HistorialCodigos.csproj|solutionrelative:servicio.historialcodigos\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\graphql\\friendlyerrorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\graphql\\friendlyerrorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.codigosdonacion\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1839EF-A11E-4D39-AE91-144B7D4F4967}|Servicio.CodigosDonacion\\Servicio.CodigosDonacion.csproj|solutionrelative:servicio.codigosdonacion\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BF08EE-0B38-4017-9D58-4FB3AA460572}|Servicio.Proyectos\\Servicio.Proyectos.csproj|c:\\users\\usuario\\desktop\\bd\\proyecto\\donacionesproyecto-apis\\donacionesproyecto_microservicios\\servicio.proyectos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15BF08EE-0B38-4017-9D58-4FB3AA460572}|Servicio.Proyectos\\Servicio.Proyectos.csproj|solutionrelative:servicio.proyectos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alerta.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Models\\Alerta.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Models\\Alerta.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Models\\Alerta.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Models\\Alerta.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:39:39.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConnectionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\ConnectionManager.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Data\\ConnectionManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\ConnectionManager.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Data\\ConnectionManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvysAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:39:57.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Data\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Data\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvzwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:40:15.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlertaUpdateInput.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Models\\AlertaUpdateInput.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Models\\AlertaUpdateInput.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Models\\AlertaUpdateInput.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Models\\AlertaUpdateInput.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T04:45:01.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlertaMutation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Mutations\\AlertaMutation.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\GraphQL\\Mutations\\AlertaMutation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Mutations\\AlertaMutation.cs",
+              "RelativeToolTip": "Servicio.Alertas\\GraphQL\\Mutations\\AlertaMutation.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:41:19.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Servicio.Alertas.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Servicio.Alertas.csproj",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Servicio.Alertas.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Servicio.Alertas.csproj",
+              "RelativeToolTip": "Servicio.Alertas\\Servicio.Alertas.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-11T08:44:45.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\appsettings.json",
+              "RelativeToolTip": "Servicio.Alertas\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-11T08:44:38.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Program.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:44:25.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AlertaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\Repositories\\AlertaRepository.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Data\\Repositories\\AlertaRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\Repositories\\AlertaRepository.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Data\\Repositories\\AlertaRepository.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAADwv4IAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:40:35.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAlertaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\Repositories\\IAlertaRepository.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Data\\Repositories\\IAlertaRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Data\\Repositories\\IAlertaRepository.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Data\\Repositories\\IAlertaRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:40:25.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RolContextService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Services\\RolContextService.cs",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\Services\\RolContextService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Services\\RolContextService.cs",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\Services\\RolContextService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:12:24.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Program.cs",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:12:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CodigoDonacionMutation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\GraphQL\\Mutations\\CodigoDonacionMutation.cs",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\GraphQL\\Mutations\\CodigoDonacionMutation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\GraphQL\\Mutations\\CodigoDonacionMutation.cs",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\GraphQL\\Mutations\\CodigoDonacionMutation.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:11:32.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CodigoDonacionQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\GraphQL\\Queries\\CodigoDonacionQuery.cs",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\GraphQL\\Queries\\CodigoDonacionQuery.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\GraphQL\\Queries\\CodigoDonacionQuery.cs",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\GraphQL\\Queries\\CodigoDonacionQuery.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:11:37.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Proyectos\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.Proyectos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Proyectos\\appsettings.json",
+              "RelativeToolTip": "Servicio.Proyectos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T03:05:50.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CodigoDonacionService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Services\\CodigoDonacionService.cs",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\Services\\CodigoDonacionService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Services\\CodigoDonacionService.cs",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\Services\\CodigoDonacionService.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAcwPMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:12:01.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donaciones\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.Donaciones\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donaciones\\appsettings.json",
+              "RelativeToolTip": "Servicio.Donaciones\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T03:03:56.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donantes\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.Donantes\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donantes\\appsettings.json",
+              "RelativeToolTip": "Servicio.Donantes\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T03:04:26.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Fundaciones\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.Fundaciones\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Fundaciones\\appsettings.json",
+              "RelativeToolTip": "Servicio.Fundaciones\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T03:04:52.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.HistorialCodigos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\appsettings.json",
+              "RelativeToolTip": "Servicio.HistorialCodigos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T03:05:12.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\appsettings.json",
+              "RelativeToolTip": "Servicio.Usuarios\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T03:06:08.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\appsettings.json",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\appsettings.json",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T03:02:48.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\appsettings.json",
+              "RelativeDocumentMoniker": "Movimientos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\appsettings.json",
+              "RelativeToolTip": "Movimientos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-11T08:04:23.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Servicio.Alertas\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-11T08:47:21.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AlertaInput.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Inputs\\AlertaInput.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\GraphQL\\Inputs\\AlertaInput.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Inputs\\AlertaInput.cs",
+              "RelativeToolTip": "Servicio.Alertas\\GraphQL\\Inputs\\AlertaInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:41:35.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AlertaQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Queries\\AlertaQuery.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\GraphQL\\Queries\\AlertaQuery.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Queries\\AlertaQuery.cs",
+              "RelativeToolTip": "Servicio.Alertas\\GraphQL\\Queries\\AlertaQuery.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:41:01.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AlertaException.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Exceptions\\AlertaException.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\Exceptions\\AlertaException.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\Exceptions\\AlertaException.cs",
+              "RelativeToolTip": "Servicio.Alertas\\Exceptions\\AlertaException.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:42:24.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AlertaType.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Types\\AlertaType.cs",
+              "RelativeDocumentMoniker": "Servicio.Alertas\\GraphQL\\Types\\AlertaType.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Alertas\\GraphQL\\Types\\AlertaType.cs",
+              "RelativeToolTip": "Servicio.Alertas\\GraphQL\\Types\\AlertaType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:41:52.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Movimientos\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Movimientos\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-11T08:31:42.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Data\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Movimientos\\Data\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T07:58:44.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MovimientoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\Repositories\\MovimientoRepository.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Data\\Repositories\\MovimientoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\Repositories\\MovimientoRepository.cs",
+              "RelativeToolTip": "Movimientos\\Data\\Repositories\\MovimientoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T07:59:01.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Servicio.Movimientos.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Servicio.Movimientos.csproj",
+              "RelativeDocumentMoniker": "Movimientos\\Servicio.Movimientos.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Servicio.Movimientos.csproj",
+              "RelativeToolTip": "Movimientos\\Servicio.Movimientos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-11T07:56:40.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MovimientoMutation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Mutations\\MovimientoMutation.cs",
+              "RelativeDocumentMoniker": "Movimientos\\GraphQL\\Mutations\\MovimientoMutation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Mutations\\MovimientoMutation.cs",
+              "RelativeToolTip": "Movimientos\\GraphQL\\Mutations\\MovimientoMutation.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowDIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:00:10.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Program.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Program.cs",
+              "RelativeToolTip": "Movimientos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:04:11.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IMovimientoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\Repositories\\IMovimientoRepository.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Data\\Repositories\\IMovimientoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\Repositories\\IMovimientoRepository.cs",
+              "RelativeToolTip": "Movimientos\\Data\\Repositories\\IMovimientoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T07:58:53.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MovimientoQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Queries\\MovimientoQuery.cs",
+              "RelativeDocumentMoniker": "Movimientos\\GraphQL\\Queries\\MovimientoQuery.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Queries\\MovimientoQuery.cs",
+              "RelativeToolTip": "Movimientos\\GraphQL\\Queries\\MovimientoQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T07:59:42.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MovimientoInput.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Inputs\\MovimientoInput.cs",
+              "RelativeDocumentMoniker": "Movimientos\\GraphQL\\Inputs\\MovimientoInput.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Inputs\\MovimientoInput.cs",
+              "RelativeToolTip": "Movimientos\\GraphQL\\Inputs\\MovimientoInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:01:07.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ConnectionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\ConnectionManager.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Data\\ConnectionManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Data\\ConnectionManager.cs",
+              "RelativeToolTip": "Movimientos\\Data\\ConnectionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T07:58:09.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Movimiento.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Models\\Movimiento.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Models\\Movimiento.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Models\\Movimiento.cs",
+              "RelativeToolTip": "Movimientos\\Models\\Movimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T07:57:58.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MensajeResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Models\\MensajeResponse.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Models\\MensajeResponse.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Models\\MensajeResponse.cs",
+              "RelativeToolTip": "Movimientos\\Models\\MensajeResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:02:41.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MovimientoException.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Exceptions\\MovimientoException.cs",
+              "RelativeDocumentMoniker": "Movimientos\\Exceptions\\MovimientoException.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\Exceptions\\MovimientoException.cs",
+              "RelativeToolTip": "Movimientos\\Exceptions\\MovimientoException.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:20:13.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Proyectos\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.Proyectos\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Proyectos\\Program.cs",
+              "RelativeToolTip": "Servicio.Proyectos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:09:10.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MensajeResponseType.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Types\\MensajeResponseType.cs",
+              "RelativeDocumentMoniker": "Movimientos\\GraphQL\\Types\\MensajeResponseType.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Types\\MensajeResponseType.cs",
+              "RelativeToolTip": "Movimientos\\GraphQL\\Types\\MensajeResponseType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:00:49.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MovimientoTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Types\\MovimientoTypes.cs",
+              "RelativeDocumentMoniker": "Movimientos\\GraphQL\\Types\\MovimientoTypes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Movimientos\\GraphQL\\Types\\MovimientoTypes.cs",
+              "RelativeToolTip": "Movimientos\\GraphQL\\Types\\MovimientoTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:00:39.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:29:50.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RedistribuirFondosInput.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Models\\Inputs\\RedistribuirFondosInput.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\Models\\Inputs\\RedistribuirFondosInput.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Models\\Inputs\\RedistribuirFondosInput.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\Models\\Inputs\\RedistribuirFondosInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:34:23.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoginInput.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Models\\Inputs\\LoginInput.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\Models\\Inputs\\LoginInput.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Models\\Inputs\\LoginInput.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\Models\\Inputs\\LoginInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:34:22.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Query.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\GraphQL\\Query.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\GraphQL\\Query.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\GraphQL\\Query.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\GraphQL\\Query.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:34:17.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:34:13.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RolContextService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Services\\RolContextService.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\Services\\RolContextService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Services\\RolContextService.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\Services\\RolContextService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:29:36.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UsuarioMutation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\GraphQL\\Mutations\\UsuarioMutation.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\GraphQL\\Mutations\\UsuarioMutation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\GraphQL\\Mutations\\UsuarioMutation.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\GraphQL\\Mutations\\UsuarioMutation.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:34:06.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UsuarioQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\GraphQL\\Queries\\UsuarioQuery.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\GraphQL\\Queries\\UsuarioQuery.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\GraphQL\\Queries\\UsuarioQuery.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\GraphQL\\Queries\\UsuarioQuery.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:33:59.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Servicio.Usuarios.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Servicio.Usuarios.csproj",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\Servicio.Usuarios.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Servicio.Usuarios.csproj",
+              "RelativeToolTip": "Servicio.Usuarios\\Servicio.Usuarios.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-04T00:29:20.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RolContextService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Fundaciones\\Services\\RolContextService.cs",
+              "RelativeDocumentMoniker": "Servicio.Fundaciones\\Services\\RolContextService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Fundaciones\\Services\\RolContextService.cs",
+              "RelativeToolTip": "Servicio.Fundaciones\\Services\\RolContextService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:29:05.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donantes\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.Donantes\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donantes\\Program.cs",
+              "RelativeToolTip": "Servicio.Donantes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:14:33.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RolContextService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Services\\RolContextService.cs",
+              "RelativeDocumentMoniker": "Servicio.HistorialCodigos\\Services\\RolContextService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Services\\RolContextService.cs",
+              "RelativeToolTip": "Servicio.HistorialCodigos\\Services\\RolContextService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:13:47.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donaciones\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.Donaciones\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Donaciones\\Program.cs",
+              "RelativeToolTip": "Servicio.Donaciones\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:12:44.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Microsoft.WebTools.Aspire.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Microsoft\\VisualStudio\\WebTools.Aspire\\Microsoft.WebTools.Aspire.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Microsoft\\VisualStudio\\WebTools.Aspire\\Microsoft.WebTools.Aspire.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Microsoft\\VisualStudio\\WebTools.Aspire\\Microsoft.WebTools.Aspire.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Microsoft\\VisualStudio\\WebTools.Aspire\\Microsoft.WebTools.Aspire.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-08-04T00:15:01.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HistorialCodigoService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Services\\HistorialCodigoService.cs",
+              "RelativeDocumentMoniker": "Servicio.HistorialCodigos\\Services\\HistorialCodigoService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Services\\HistorialCodigoService.cs",
+              "RelativeToolTip": "Servicio.HistorialCodigos\\Services\\HistorialCodigoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:11:07.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.Usuarios\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Usuarios\\Program.cs",
+              "RelativeToolTip": "Servicio.Usuarios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:14:05.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Fundaciones\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.Fundaciones\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Fundaciones\\Program.cs",
+              "RelativeToolTip": "Servicio.Fundaciones\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:14:28.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "HistorialCodigoInput.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Models\\Inputs\\HistorialCodigoInput.cs",
+              "RelativeDocumentMoniker": "Servicio.HistorialCodigos\\Models\\Inputs\\HistorialCodigoInput.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Models\\Inputs\\HistorialCodigoInput.cs",
+              "RelativeToolTip": "Servicio.HistorialCodigos\\Models\\Inputs\\HistorialCodigoInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:13:18.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Servicio.HistorialCodigos\\Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "Servicio.HistorialCodigos\\Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:12:52.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Program.cs",
+              "RelativeDocumentMoniker": "Servicio.HistorialCodigos\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.HistorialCodigos\\Program.cs",
+              "RelativeToolTip": "Servicio.HistorialCodigos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:10:57.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "FriendlyErrorFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\GraphQL\\FriendlyErrorFilter.cs",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\GraphQL\\FriendlyErrorFilter.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\GraphQL\\FriendlyErrorFilter.cs",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\GraphQL\\FriendlyErrorFilter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:11:39.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Servicio.CodigosDonacion\\Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.CodigosDonacion\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "Servicio.CodigosDonacion\\Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T00:11:22.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Proyectos\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Servicio.Proyectos\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\BD\\Proyecto\\DonacionesProyecto-APIS\\DonacionesProyecto_Microservicios\\Servicio.Proyectos\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Servicio.Proyectos\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-04T00:10:39.401Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1108,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
