@@ -1,0 +1,79 @@
+@model List<HistorialCodigo>
+@{
+    var codigos = ViewData["Codigos"] as List<CodigoDonacion> ?? new();
+    var acciones = ViewData["Acciones"] as List<string> ?? new();
+    var idCodigoFiltro = ViewData["IdCodigoFiltro"] as int?;
+    var accionFiltro = ViewData["AccionFiltro"] as string;
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="panel">
+    <div class="panel-header">
+        <h2>Historial de códigos de donación</h2>
+    </div>
+
+    <form method="get" asp-action="HistorialCodigos" class="filter-bar row g-2">
+        <div class="col-md-4">
+            <select name="idCodigo" class="form-select" onchange="this.form.submit()">
+                <option value="">Todos los códigos</option>
+                @foreach (var c in codigos)
+                {
+                    <option value="@c.IdCodigo" selected="@(idCodigoFiltro == c.IdCodigo)">@c.NombreCodigo</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-4">
+            <select name="accion" class="form-select" onchange="this.form.submit()">
+                <option value="">Todas las acciones</option>
+                @foreach (var a in acciones)
+                {
+                    <option value="@a" selected="@(string.Equals(accionFiltro, a, StringComparison.OrdinalIgnoreCase))">@a.ToUpper()</option>
+                }
+            </select>
+        </div>
+    </form>
+
+    <div class="table-responsive">
+        <table class="table table-ledger mb-0">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Acción</th>
+                    <th>Usuario</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr><td colspan="5" class="text-center text-soft py-4">No hay registros de historial con estos filtros.</td></tr>
+                }
+                @foreach (var h in Model)
+                {
+                    var badgeClass = h.Accion?.ToUpper() switch
+                    {
+                        "INSERT" => "badge-activo",
+                        "DELETE" => "badge-cancelada",
+                        "CONSULTA" => "badge-pendiente",
+                        _ => "badge-pendiente"
+                    };
+                    <tr>
+                        <td class="mono">@h.CodigoNombre</td>
+                        <td><span class="badge-estado @badgeClass">@h.Accion</span></td>
+                        <td>@h.UsuarioNombre</td>
+                        <td class="text-soft">@h.DescripcionCambio</td>
+                        <td class="text-soft">@(h.Fecha?.ToString("dd/MM/yyyy, hh:mm tt"))</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

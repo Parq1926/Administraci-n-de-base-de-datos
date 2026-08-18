@@ -1,0 +1,46 @@
+﻿@model Usuario
+@{
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (TempData["Exito"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Exito"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="row g-3">
+    <div class="col-lg-8">
+        <div class="form-card">
+            <h2 style="font-size:1.1rem;" class="mb-3">Mis datos personales</h2>
+            <form method="post" asp-controller="Cliente" asp-action="MiPerfil">
+                @Html.AntiForgeryToken()
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" value="@Model.Nombre" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" name="apellidos" value="@Model.Apellidos" />
+                    </div>
+                    <div class="col-md-8">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" value="@Model.Email" required />
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end mt-3">
+                    <button class="btn btn-primary" type="submit">Guardar cambios</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

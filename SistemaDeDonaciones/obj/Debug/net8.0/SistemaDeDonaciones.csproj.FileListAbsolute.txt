@@ -1,0 +1,96 @@
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\appsettings.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.staticwebassets.runtime.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.staticwebassets.endpoints.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.exe
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.deps.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.runtimeconfig.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.dll
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.pdb
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.RazorAssemblyInfo.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.RazorAssemblyInfo.cs
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\scopedcss\bundle\SistemaDeDonaciones.styles.css
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.dll
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\refint\SistemaDeDonaciones.dll
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.pdb
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\ref\SistemaDeDonaciones.dll
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\appsettings.Development.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\appsettings.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.staticwebassets.runtime.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.staticwebassets.endpoints.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.exe
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.deps.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.runtimeconfig.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.dll
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.pdb
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.GeneratedMSBuildEditorConfig.editorconfig
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.AssemblyInfoInputs.cache
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.AssemblyInfo.cs
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.csproj.CoreCompileInputs.cache
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.MvcApplicationPartsAssemblyInfo.cache
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.RazorAssemblyInfo.cache
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.RazorAssemblyInfo.cs
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.sourcelink.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\scopedcss\bundle\SistemaDeDonaciones.styles.css
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.development.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.dll
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\refint\SistemaDeDonaciones.dll
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.pdb
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.genruntimeconfig.cache
+D:\Marco\CUC\Cuatris\VC\Administración Bases de Datos - VC\Proyectos\Proyecto Final\Administraci-n-de-base-de-datos\SistemaDeDonaciones_Yendry\SistemaDeDonaciones\obj\Debug\net8.0\ref\SistemaDeDonaciones.dll
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\appsettings.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.staticwebassets.runtime.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.staticwebassets.endpoints.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.exe
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.deps.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.runtimeconfig.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.dll
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\bin\Debug\net8.0\SistemaDeDonaciones.pdb
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.RazorAssemblyInfo.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.RazorAssemblyInfo.cs
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\scopedcss\bundle\SistemaDeDonaciones.styles.css
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.dll
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\refint\SistemaDeDonaciones.dll
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.pdb
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\SistemaDeDonaciones.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\SistemaDeDonaciones\obj\Debug\net8.0\ref\SistemaDeDonaciones.dll
